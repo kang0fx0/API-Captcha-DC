@@ -1,3 +1,7 @@
-http:// 20.205.5.164 {
+www.kang23.xyz {
+    redir http:kang23.xyz{uri}
+}
+
+kang23.xyz {
     reverse_proxy localhost: 8000
 }
