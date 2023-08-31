@@ -4,4 +4,3 @@ requests
 torch
 Pillow
 ultralytics
-gunicorn
